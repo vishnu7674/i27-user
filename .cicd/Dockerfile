@@ -17,7 +17,7 @@ COPY ["${JAR_SOURCE}", "/opt/i27/i27cart-user.jar"]
 RUN chmod 777 /opt/i27/
 
 #expose port 8761 to allow external access to application
-EXPOSE 8761
+EXPOSE 8232
 
 # Specify the command to run the spring based applications using the JAVA JAR file
 
