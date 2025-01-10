@@ -46,6 +46,6 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://146.148.82.230:30225/eureka/
+      defaultZone: http://eureka-dev.vishnuapple.in/eureka/
   #instance:
     #preferIpAddress: true
